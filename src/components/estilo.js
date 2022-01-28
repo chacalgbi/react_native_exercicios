@@ -12,7 +12,7 @@ export default StyleSheet.create({
         fontSize: 18
     },
     App: {
-        backgroundColor: '#00FA9A',
+        backgroundColor: '#ADD8E6',
         flex: 1,
         justifyContent: "center",
         alignItems: "center",

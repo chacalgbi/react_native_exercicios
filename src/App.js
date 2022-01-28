@@ -13,8 +13,9 @@ import estilo from "./components/estilo"
 //import Pai from './components/relacao/Pai'
 //import Filho from './components/relacao/Filho'
 //import ListaProdutos from './components/produtos/ListaProdutos'
-import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
-import TesteAxios from './components/TesteAxios'
+//import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+//import TesteAxios from './components/TesteAxios'
+import FlexboxV1 from './components/layout/FlexboxV1';
 
 export default function App() {
 
@@ -27,13 +28,14 @@ export default function App() {
 
     return(
         <SafeAreaView style={estilo.App}>
-            <TesteAxios />
+            <FlexboxV1 />
 
             
 
 
 
             {/*
+            <TesteAxios />
             <ListaProdutos />
             <Pai>
                 <Filho nome="Julia" sobrenome="Oliveira"/>

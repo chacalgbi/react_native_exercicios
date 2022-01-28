@@ -19,7 +19,7 @@ export default () =>{
 
     return(
         <>
-            <Text>Login</Text>
+            <Text>Tela de Login</Text>
         </>
         
     )
