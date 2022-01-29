@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, SafeAreaView } from "react-native";
+import { StyleSheet, SafeAreaView, Text } from "react-native";
 import estilo from "./components/estilo"
 //import Comp, { Comp1, Comp2 } from "./components/Multi_exports";
 //import Minmax from "./components/Minmax";
@@ -15,7 +15,7 @@ import estilo from "./components/estilo"
 //import ListaProdutos from './components/produtos/ListaProdutos'
 //import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 //import TesteAxios from './components/TesteAxios'
-import FlexboxV1 from './components/layout/FlexboxV1';
+import FlexboxV4 from './components/layout/FlexboxV4';
 
 export default function App() {
 
@@ -28,7 +28,8 @@ export default function App() {
 
     return(
         <SafeAreaView style={estilo.App}>
-            <FlexboxV1 />
+
+            <FlexboxV4 />
 
             
 
